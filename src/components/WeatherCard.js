@@ -5,8 +5,6 @@ import './style.css';
 const WeatherCard = (props) => {
     const { weather } = props; 
 
-    console.log(weather);
-
     if(objectIsEmpty(weather)){
         return null
     }

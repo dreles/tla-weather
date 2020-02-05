@@ -7,7 +7,7 @@ const App = () => {
 
     return (
         <div>
-             <h1>Simple Weather App</h1>
+             <h1>Search for a city: </h1>
              <SearchBar setWeather={setWeather} />
              <WeatherCard weather={weather} />
         </div>

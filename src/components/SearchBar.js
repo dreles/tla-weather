@@ -13,7 +13,7 @@ const SearchBar = (props) => {
             let response = await axios.get(api)
             setWeather({...response.data.weather[0], ...response.data.main, name: response.data.name })
         } catch (err) { 
-            setError('sorry your input is invalid');
+            setError('sorry your input is invalid, please try again with valid input');
             setTimeout(() => { setError('') }, 3000);
         }
     }

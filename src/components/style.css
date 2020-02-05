@@ -4,8 +4,19 @@
     background-color: black;
     text-align: center;
     padding-top: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .weather-card > h2 {
     color: white 
+}
+
+input {
+    display: block;
+    margin: auto;
+    height: 15px;
+    border-width: 2px;
+    border-style: solid;
 }
